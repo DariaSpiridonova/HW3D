@@ -1,0 +1,101 @@
+Start testing: Nov 06 12:25 MSK
+----------------------------------------------------------
+1/3 Testing: geometry
+1/3 Test: geometry
+Command: "/home/dasha/Загрузки/HW3D/hw3d/build-san/check_project"
+Directory: /home/dasha/Загрузки/HW3D/hw3d/build-san
+"geometry" start time: Nov 06 12:25 MSK
+Output:
+----------------------------------------------------------
+Vector, Triangle, Plane                        ok
+AABB                                           ok
+    3D, coordinates 0..4: 75337 pairs, 27970 intersect
+    3D, coordinates 0..6: 78252 pairs, 25072 intersect
+    3D, coordinates 0..10: 79527 pairs, 22991 intersect
+3D (general case) against the oracle           ok
+    coplanar: 145101 pairs, 106212 intersect
+coplanar (3 planes) and 2D against the oracle  ok
+BVH: all pairs of overlapping boxes            ok
+Scene: reading, errors, bounds                 ok
+    integer 3D scene, cube 0..12: flagged 2496 of 2500
+    integer 3D scene, cube 0..20: flagged 2431 of 2500
+    integer 3D scene, cube 0..40: flagged 1155 of 2500
+Scene: flags (BVH + exact test)                ok
+degenerate triangles are ignored               ok
+
+ALL CHECKS PASSED
+<end of output>
+Test time =  31.67 sec
+----------------------------------------------------------
+Test Passed.
+"geometry" end time: Nov 06 12:25 MSK
+"geometry" time elapsed: 00:00:31
+----------------------------------------------------------
+
+2/3 Testing: render
+2/3 Test: render
+Command: "/home/dasha/Загрузки/HW3D/hw3d/build-san/check_render"
+Directory: /home/dasha/Загрузки/HW3D/hw3d/build-san
+"render" start time: Nov 06 12:25 MSK
+Output:
+----------------------------------------------------------
+the layout of Vertex (28 bytes, no gaps)       ok
+vertices of a 3D scene                         ok
+vertices of a 2D scene                         ok
+view data from the vertices, the frame of the cube ok
+the file with the vertices (.vtx)              ok
+matrices: view, projection, product            ok
+camera: move, turn, look at a point            ok
+
+ALL RENDER CHECKS PASSED
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"render" end time: Nov 06 12:25 MSK
+"render" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/3 Testing: command_line
+3/3 Test: command_line
+Command: "/usr/bin/bash" "/home/dasha/Загрузки/HW3D/hw3d/tests/run_cli_tests.sh" "/home/dasha/Загрузки/HW3D/hw3d/build-san/hw3d"
+Directory: /home/dasha/Загрузки/HW3D/hw3d/build-san
+"command_line" start time: Nov 06 12:25 MSK
+Output:
+----------------------------------------------------------
+ok    bad_dimension.fail (file): an error, exit code 1
+ok    bad_dimension.fail (stdin): an error, exit code 1
+ok    coplanar_equal (file)
+ok    coplanar_equal (stdin)
+ok    degenerate_ignored (file)
+ok    degenerate_ignored (stdin)
+ok    empty (file)
+ok    empty (stdin)
+ok    empty_input.fail (file): an error, exit code 1
+ok    empty_input.fail (stdin): an error, exit code 1
+ok    gap_not_touching (file)
+ok    gap_not_touching (stdin)
+ok    nan.fail (file): an error, exit code 1
+ok    nan.fail (stdin): an error, exit code 1
+ok    not_a_number.fail (file): an error, exit code 1
+ok    not_a_number.fail (stdin): an error, exit code 1
+ok    small2d (file)
+ok    small2d (stdin)
+ok    small3d (file)
+ok    small3d (stdin)
+ok    spaces_and_tabs (file)
+ok    spaces_and_tabs (stdin)
+ok    touch_vertex (file)
+ok    touch_vertex (stdin)
+ok    truncated.fail (file): an error, exit code 1
+ok    truncated.fail (stdin): an error, exit code 1
+cli tests: 26 of 26 passed
+<end of output>
+Test time =   0.41 sec
+----------------------------------------------------------
+Test Passed.
+"command_line" end time: Nov 06 12:25 MSK
+"command_line" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 06 12:25 MSK

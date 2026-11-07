@@ -1,0 +1,1 @@
+/usr/bin/c++ -O2 CMakeFiles/bench_scene.dir/tools/bench_scene.cpp.o -o bench_scene 

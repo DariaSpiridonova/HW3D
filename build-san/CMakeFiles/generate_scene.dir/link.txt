@@ -1,0 +1,1 @@
+/usr/bin/c++ -O2 -fsanitize=address,undefined CMakeFiles/generate_scene.dir/tools/generate_scene.cpp.o -o generate_scene 

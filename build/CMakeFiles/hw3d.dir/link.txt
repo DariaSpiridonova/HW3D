@@ -1,0 +1,1 @@
+/usr/bin/c++ -O2 CMakeFiles/hw3d.dir/src/main.cpp.o CMakeFiles/hw3d.dir/src/render/viewer.cpp.o -o hw3d  /usr/lib/x86_64-linux-gnu/libglfw.so.3.3 /usr/lib/x86_64-linux-gnu/libGLEW.so /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so 

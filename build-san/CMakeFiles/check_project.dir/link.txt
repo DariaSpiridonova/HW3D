@@ -1,0 +1,1 @@
+/usr/bin/c++ -O2 -fsanitize=address,undefined CMakeFiles/check_project.dir/tests/check_project.cpp.o -o check_project 

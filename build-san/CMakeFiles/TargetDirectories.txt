@@ -1,0 +1,9 @@
+/home/dasha/Загрузки/HW3D/hw3d/build-san/CMakeFiles/check_project.dir
+/home/dasha/Загрузки/HW3D/hw3d/build-san/CMakeFiles/check_render.dir
+/home/dasha/Загрузки/HW3D/hw3d/build-san/CMakeFiles/generate_scene.dir
+/home/dasha/Загрузки/HW3D/hw3d/build-san/CMakeFiles/bench_scene.dir
+/home/dasha/Загрузки/HW3D/hw3d/build-san/CMakeFiles/hw3d.dir
+/home/dasha/Загрузки/HW3D/hw3d/build-san/CMakeFiles/hello_window.dir
+/home/dasha/Загрузки/HW3D/hw3d/build-san/CMakeFiles/test.dir
+/home/dasha/Загрузки/HW3D/hw3d/build-san/CMakeFiles/edit_cache.dir
+/home/dasha/Загрузки/HW3D/hw3d/build-san/CMakeFiles/rebuild_cache.dir
